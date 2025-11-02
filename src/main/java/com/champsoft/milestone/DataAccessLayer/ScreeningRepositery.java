@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface ScreeningRepositery extends JpaRepository<Screening, Integer>, PagingAndSortingRepository<Screening, Integer> {
     List<Screening> findByMovieId(int id);
+
 }

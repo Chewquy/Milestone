@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class MilestoneApplication implements CommandLineRunner {
+
     private final ScreeningRepositery screeningRepositery;
     private final MovieRepository movieRepository;
     private static final Logger log = LoggerFactory.getLogger(MilestoneApplication.class);

@@ -20,6 +20,7 @@ public class MovieMapper {
     }
 
     public Movie fromRequestModelToEntity(MovieRequestModel model) {
+
         Movie movie = new Movie();
         movie.setName(model.getName());
         movie.setSynopsis(model.getSynopsis());

@@ -29,6 +29,7 @@ public class ScreeningMapper {
     }
 
     public Screening fromRequestModelToEntity(ScreeningRequestModel model) {
+
         Screening screening = new Screening();
         screening.setDay(model.getDay());
         screening.setScreeningHour(model.getScreeningHour());

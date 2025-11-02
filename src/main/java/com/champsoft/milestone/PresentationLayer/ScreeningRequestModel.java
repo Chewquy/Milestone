@@ -8,8 +8,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class ScreeningRequestModel {
+
     private String day;
     private int screeningHour;
     private int projectionRoomNumber;
     private int movieId;
+
 }

@@ -25,6 +25,7 @@ public class Screening {
     @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
     private Movie movie;
 
+
     public Screening(String day, int screeningTime, int projectionRoomNumber, Movie movie) {
         this.day = day;
         this.screeningHour = screeningTime;

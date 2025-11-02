@@ -22,6 +22,7 @@ import java.util.Optional;
         private final MovieService movieService;
         private final ScreeningMapper screeningMapper;
 
+
         public ScreeningService(ScreeningRepositery screeningRepository,
                                 MovieRepository movieRepository,
                                 MovieService movieService,

@@ -9,8 +9,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class ScreeningSummary {
+
     private int screeningId;
     private String day;
     private int screeningHour;
     private int projectionRoomNumber;
+
 }

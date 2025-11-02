@@ -23,7 +23,6 @@ public class Movie {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
-
     private String name;
     private String synopsis;
     private String genre;
