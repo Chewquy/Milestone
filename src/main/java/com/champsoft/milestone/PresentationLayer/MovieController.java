@@ -49,6 +49,7 @@ public class MovieController {
                 "status", "success",
                 "message", "Movie deleted successfully",
                 "id", id
+
         );
     }
 
