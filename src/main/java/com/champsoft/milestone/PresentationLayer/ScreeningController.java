@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
+@CrossOrigin(origins = "https://jazzy-babka-92a27a.netlify.app")
 @RestController
 @RequestMapping("/screenings")
 public class ScreeningController {
