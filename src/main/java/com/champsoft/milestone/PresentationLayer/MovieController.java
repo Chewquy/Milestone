@@ -51,6 +51,7 @@ public class MovieController {
                 "id", id
 
         );
+
     }
 
     // GET screenings for a specific movie
